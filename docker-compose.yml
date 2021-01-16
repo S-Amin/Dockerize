@@ -10,5 +10,5 @@ services:
       - "3000:3000"   # ports need to be available outside the container 
     volumes:
       - .:/app    # add the root of the project to the root of the working directory
-      - $HOME/rx-front/node_modules:/app/node_modules    # the node_modules folder in different location
+      - $HOME/project-name/node_modules:/app/node_modules    # the node_modules folder in different location
     command: yarn start   # the command that should be run after container is built 
