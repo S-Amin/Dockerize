@@ -1,4 +1,4 @@
-### run the production
+### run project on developement mode
 
 `docker-compose up --build`
 
